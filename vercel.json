@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "app.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/app.js"
+    }
+  ],
+  "env": {
+    "DAHUA_HOST": "@dahua_host",
+    "DAHUA_PORT": "@dahua_port",
+    "DAHUA_USER": "@dahua_user",
+    "DAHUA_PASS": "@dahua_pass",
+    "AZURE_CLIENT_ID": "@azure_client_id",
+    "AZURE_TENANT_ID": "@azure_tenant_id",
+    "AZURE_CLIENT_SECRET": "@azure_client_secret",
+    "PORT": "3000"
+  }
+}

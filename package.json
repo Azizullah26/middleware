@@ -1,0 +1,52 @@
+{
+  "name": "dahua-yealink-integration",
+  "version": "1.0.0",
+  "description": "Middleware for integrating Dahua face recognition with Yealink room panels via Microsoft Graph API",
+  "keywords": [
+    "dahua",
+    "yealink",
+    "microsoft-graph",
+    "face-recognition",
+    "calendar"
+  ],
+  "license": "MIT",
+  "author": "Aziz",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@aws-sdk/credential-providers": "latest",
+    "@azure/msal-node": "latest",
+    "@microsoft/microsoft-graph-client": "latest",
+    "@mongodb-js/zstd": "latest",
+    "axios": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "latest",
+    "express": "latest",
+    "gcp-metadata": "latest",
+    "kerberos": "latest",
+    "lucide-react": "^0.454.0",
+    "mongodb": "latest",
+    "mongodb-client-encryption": "latest",
+    "next": "15.2.4",
+    "node-dahua-api": "latest",
+    "react": "^19",
+    "react-dom": "^19",
+    "snappy": "latest",
+    "socks": "latest",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "nodemon": "^3.0.2",
+    "postcss": "^8.5",
+    "typescript": "^5"
+  }
+}
